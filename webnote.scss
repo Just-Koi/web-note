@@ -39,4 +39,16 @@ html{
     .p-#{$i}{
         padding: nth($paddings, $i);
     }
+    .py-#{$i}{
+        padding: nth($paddings, $i) 0;
+    }
+    .px-#{$i}{
+        padding: 0 nth($paddings, $i);
+    }
+    .pr-#{$i}{
+        padding: 0 nth($paddings, $i) 0 0;
+    }
+    .pr-#{$i}{
+        padding: 0 0 0 nth($paddings, $i);
+    }
 }
