@@ -53,3 +53,27 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
+
+.decimal-list {
+  list-style: decimal;
+}
+
+.p-1 {
+  padding: 1;
+}
+
+.p-2 {
+  padding: 2;
+}
+
+.p-3 {
+  padding: 3;
+}
+
+.p-4 {
+  padding: 4;
+}
+
+.p-5 {
+  padding: 5;
+}

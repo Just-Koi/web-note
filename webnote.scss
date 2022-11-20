@@ -4,6 +4,8 @@ $regural: 'Roboto', sans-serif;
 
 $fws: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 
+$paddings: (1, 2, 3, 4, 5);
+
 .dark-note{
     background: #222;
     color: #efefef;
@@ -27,4 +29,14 @@ $fws: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 html{
     font-family: $regural;
     font-weight: nth($fws, 3);
+}
+
+.decimal-list{
+    list-style: decimal;
+}
+
+@for $i from 1 through 5{
+    .p-#{$i}{
+        padding: nth($paddings, $i);
+    }
 }
