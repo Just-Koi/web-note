@@ -4,7 +4,7 @@ $regural: 'Roboto', sans-serif;
 
 $fws: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 
-$paddings: (1, 2, 3, 4, 5);
+$spaces: (1em, 2em, 3em, 4em, 5em);
 
 .dark-note{
     background: #222;
@@ -37,18 +37,33 @@ html{
 
 @for $i from 1 through 5{
     .p-#{$i}{
-        padding: nth($paddings, $i);
+        padding: nth($spaces, $i);
     }
     .py-#{$i}{
-        padding: nth($paddings, $i) 0;
+        padding: nth($spaces, $i) 0;
     }
     .px-#{$i}{
-        padding: 0 nth($paddings, $i);
+        padding: 0 nth($spaces, $i);
     }
     .pr-#{$i}{
-        padding: 0 nth($paddings, $i) 0 0;
+        padding: 0 nth($spaces, $i) 0 0;
     }
     .pr-#{$i}{
-        padding: 0 0 0 nth($paddings, $i);
+        padding: 0 0 0 nth($spaces, $i);
+    }
+    .m-#{$i}{
+        margin: nth($spaces, $i);
+    }
+    .my-#{$i}{
+        margin: nth($spaces, $i) 0;
+    }
+    .mx-#{$i}{
+        margin: 0 nth($spaces, $i);
+    }
+    .mr-#{$i}{
+        margin: 0 nth($spaces, $i) 0 0;
+    }
+    .mr-#{$i}{
+        margin: 0 0 0 nth($spaces, $i);
     }
 }

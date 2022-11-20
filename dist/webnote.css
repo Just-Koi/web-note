@@ -59,101 +59,201 @@ html {
 }
 
 .p-1 {
-  padding: 1;
+  padding: 1em;
 }
 
 .py-1 {
-  padding: 1 0;
+  padding: 1em 0;
 }
 
 .px-1 {
-  padding: 0 1;
+  padding: 0 1em;
 }
 
 .pr-1 {
-  padding: 0 1 0 0;
+  padding: 0 1em 0 0;
 }
 
 .pr-1 {
-  padding: 0 0 0 1;
+  padding: 0 0 0 1em;
+}
+
+.m-1 {
+  margin: 1em;
+}
+
+.my-1 {
+  margin: 1em 0;
+}
+
+.mx-1 {
+  margin: 0 1em;
+}
+
+.mr-1 {
+  margin: 0 1em 0 0;
+}
+
+.mr-1 {
+  margin: 0 0 0 1em;
 }
 
 .p-2 {
-  padding: 2;
+  padding: 2em;
 }
 
 .py-2 {
-  padding: 2 0;
+  padding: 2em 0;
 }
 
 .px-2 {
-  padding: 0 2;
+  padding: 0 2em;
 }
 
 .pr-2 {
-  padding: 0 2 0 0;
+  padding: 0 2em 0 0;
 }
 
 .pr-2 {
-  padding: 0 0 0 2;
+  padding: 0 0 0 2em;
+}
+
+.m-2 {
+  margin: 2em;
+}
+
+.my-2 {
+  margin: 2em 0;
+}
+
+.mx-2 {
+  margin: 0 2em;
+}
+
+.mr-2 {
+  margin: 0 2em 0 0;
+}
+
+.mr-2 {
+  margin: 0 0 0 2em;
 }
 
 .p-3 {
-  padding: 3;
+  padding: 3em;
 }
 
 .py-3 {
-  padding: 3 0;
+  padding: 3em 0;
 }
 
 .px-3 {
-  padding: 0 3;
+  padding: 0 3em;
 }
 
 .pr-3 {
-  padding: 0 3 0 0;
+  padding: 0 3em 0 0;
 }
 
 .pr-3 {
-  padding: 0 0 0 3;
+  padding: 0 0 0 3em;
+}
+
+.m-3 {
+  margin: 3em;
+}
+
+.my-3 {
+  margin: 3em 0;
+}
+
+.mx-3 {
+  margin: 0 3em;
+}
+
+.mr-3 {
+  margin: 0 3em 0 0;
+}
+
+.mr-3 {
+  margin: 0 0 0 3em;
 }
 
 .p-4 {
-  padding: 4;
+  padding: 4em;
 }
 
 .py-4 {
-  padding: 4 0;
+  padding: 4em 0;
 }
 
 .px-4 {
-  padding: 0 4;
+  padding: 0 4em;
 }
 
 .pr-4 {
-  padding: 0 4 0 0;
+  padding: 0 4em 0 0;
 }
 
 .pr-4 {
-  padding: 0 0 0 4;
+  padding: 0 0 0 4em;
+}
+
+.m-4 {
+  margin: 4em;
+}
+
+.my-4 {
+  margin: 4em 0;
+}
+
+.mx-4 {
+  margin: 0 4em;
+}
+
+.mr-4 {
+  margin: 0 4em 0 0;
+}
+
+.mr-4 {
+  margin: 0 0 0 4em;
 }
 
 .p-5 {
-  padding: 5;
+  padding: 5em;
 }
 
 .py-5 {
-  padding: 5 0;
+  padding: 5em 0;
 }
 
 .px-5 {
-  padding: 0 5;
+  padding: 0 5em;
 }
 
 .pr-5 {
-  padding: 0 5 0 0;
+  padding: 0 5em 0 0;
 }
 
 .pr-5 {
-  padding: 0 0 0 5;
+  padding: 0 0 0 5em;
+}
+
+.m-5 {
+  margin: 5em;
+}
+
+.my-5 {
+  margin: 5em 0;
+}
+
+.mx-5 {
+  margin: 0 5em;
+}
+
+.mr-5 {
+  margin: 0 5em 0 0;
+}
+
+.mr-5 {
+  margin: 0 0 0 5em;
 }
