@@ -31,6 +31,10 @@ html{
     font-weight: nth($fws, 3);
 }
 
+ul{
+    padding: 0;
+}
+
 .decimal-list{
     list-style: decimal;
 }

@@ -54,6 +54,10 @@ html {
   font-weight: 300;
 }
 
+ul {
+  padding: 0;
+}
+
 .decimal-list {
   list-style: decimal;
 }
