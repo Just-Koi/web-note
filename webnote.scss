@@ -52,7 +52,7 @@ ul{
     .pr-#{$i}{
         padding: 0 nth($spaces, $i) 0 0;
     }
-    .pr-#{$i}{
+    .pl-#{$i}{
         padding: 0 0 0 nth($spaces, $i);
     }
     .m-#{$i}{
@@ -67,7 +67,7 @@ ul{
     .mr-#{$i}{
         margin: 0 nth($spaces, $i) 0 0;
     }
-    .mr-#{$i}{
+    .ml-#{$i}{
         margin: 0 0 0 nth($spaces, $i);
     }
 }
