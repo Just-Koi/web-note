@@ -31,6 +31,40 @@ html{
     font-weight: nth($fws, 3);
 }
 
+.table,
+table{
+    padding: 5px 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+
+    .table-heading,
+    thead{
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    .table-row,
+    tr{
+        margin: 5px 0px;
+
+        .table-cell,
+        td{
+            padding: 5px;
+
+            &.cell-heading{
+                font-weight: 800;
+            }
+
+            &.cell-item{
+                font-weight: 400;
+            }
+
+        }
+
+    }
+
+}
+
 ul{
     padding: 0;
 }
