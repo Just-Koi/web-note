@@ -68,21 +68,23 @@ html{
 .table,
 table{
     padding: 5px 10px;
-    border: 2px solid #ddd;
     border-radius: 8px;
 
     .table-heading,
     thead{
+        border: 2px solid #ddd;
         font-size: 1.5em;
         font-weight: 800;
     }
 
     .table-row,
     tr{
+        border: 2px solid #ddd;
         margin: 5px 0px;
 
         .table-cell,
         td{
+            border: 2px solid #ddd;
             padding: 5px;
 
             &.cell-heading{

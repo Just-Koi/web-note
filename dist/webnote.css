@@ -77,13 +77,13 @@ html {
 .table,
 table {
   padding: 5px 10px;
-  border: 2px solid #ddd;
   border-radius: 8px;
 }
 .table .table-heading,
 .table thead,
 table .table-heading,
 table thead {
+  border: 2px solid #ddd;
   font-size: 1.5em;
   font-weight: 800;
 }
@@ -91,6 +91,7 @@ table thead {
 .table tr,
 table .table-row,
 table tr {
+  border: 2px solid #ddd;
   margin: 5px 0px;
 }
 .table .table-row .table-cell,
@@ -101,6 +102,7 @@ table .table-row .table-cell,
 table .table-row td,
 table tr .table-cell,
 table tr td {
+  border: 2px solid #ddd;
   padding: 5px;
 }
 .table .table-row .table-cell.cell-heading,
