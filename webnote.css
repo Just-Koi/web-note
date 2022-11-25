@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.highlight-blue {
+  color: #56CBF9;
+}
+
+.highlight-pink {
+  color: #EAC5D8;
+}
+
+.highlight-yellow {
+  color: #FFD8BE;
+}
+
+.highlight-purple {
+  color: #9381FF;
+}
+
+.highlight-beige {
+  color: #F8F7FF;
+}
+
 .dark-note {
   background: #222;
   color: #efefef;
