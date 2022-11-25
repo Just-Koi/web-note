@@ -76,6 +76,7 @@ html {
 
 .table,
 table {
+  border: 2px solid #ddd;
   padding: 5px 10px;
   border-radius: 8px;
 }
@@ -83,7 +84,6 @@ table {
 .table thead,
 table .table-heading,
 table thead {
-  border: 2px solid #ddd;
   font-size: 1.5em;
   font-weight: 800;
 }
@@ -102,7 +102,6 @@ table .table-row .table-cell,
 table .table-row td,
 table tr .table-cell,
 table tr td {
-  border: 2px solid #ddd;
   padding: 5px;
 }
 .table .table-row .table-cell.cell-heading,
@@ -130,206 +129,206 @@ ul {
   padding: 0;
 }
 
-.decimal-list {
+.list-decimal {
   list-style: decimal;
 }
 
 .p-1 {
-  padding: 1em;
+  padding: 1rem;
 }
 
 .py-1 {
-  padding: 1em 0;
+  padding: 1rem 0;
 }
 
 .px-1 {
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .pr-1 {
-  padding: 0 1em 0 0;
+  padding: 0 1rem 0 0;
 }
 
 .pl-1 {
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1rem;
 }
 
 .m-1 {
-  margin: 1em;
+  margin: 1rem;
 }
 
 .my-1 {
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 
 .mx-1 {
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 
 .mr-1 {
-  margin: 0 1em 0 0;
+  margin: 0 1rem 0 0;
 }
 
 .ml-1 {
-  margin: 0 0 0 1em;
+  margin: 0 0 0 1rem;
 }
 
 .p-2 {
-  padding: 2em;
+  padding: 2rem;
 }
 
 .py-2 {
-  padding: 2em 0;
+  padding: 2rem 0;
 }
 
 .px-2 {
-  padding: 0 2em;
+  padding: 0 2rem;
 }
 
 .pr-2 {
-  padding: 0 2em 0 0;
+  padding: 0 2rem 0 0;
 }
 
 .pl-2 {
-  padding: 0 0 0 2em;
+  padding: 0 0 0 2rem;
 }
 
 .m-2 {
-  margin: 2em;
+  margin: 2rem;
 }
 
 .my-2 {
-  margin: 2em 0;
+  margin: 2rem 0;
 }
 
 .mx-2 {
-  margin: 0 2em;
+  margin: 0 2rem;
 }
 
 .mr-2 {
-  margin: 0 2em 0 0;
+  margin: 0 2rem 0 0;
 }
 
 .ml-2 {
-  margin: 0 0 0 2em;
+  margin: 0 0 0 2rem;
 }
 
 .p-3 {
-  padding: 3em;
+  padding: 3rem;
 }
 
 .py-3 {
-  padding: 3em 0;
+  padding: 3rem 0;
 }
 
 .px-3 {
-  padding: 0 3em;
+  padding: 0 3rem;
 }
 
 .pr-3 {
-  padding: 0 3em 0 0;
+  padding: 0 3rem 0 0;
 }
 
 .pl-3 {
-  padding: 0 0 0 3em;
+  padding: 0 0 0 3rem;
 }
 
 .m-3 {
-  margin: 3em;
+  margin: 3rem;
 }
 
 .my-3 {
-  margin: 3em 0;
+  margin: 3rem 0;
 }
 
 .mx-3 {
-  margin: 0 3em;
+  margin: 0 3rem;
 }
 
 .mr-3 {
-  margin: 0 3em 0 0;
+  margin: 0 3rem 0 0;
 }
 
 .ml-3 {
-  margin: 0 0 0 3em;
+  margin: 0 0 0 3rem;
 }
 
 .p-4 {
-  padding: 4em;
+  padding: 4rem;
 }
 
 .py-4 {
-  padding: 4em 0;
+  padding: 4rem 0;
 }
 
 .px-4 {
-  padding: 0 4em;
+  padding: 0 4rem;
 }
 
 .pr-4 {
-  padding: 0 4em 0 0;
+  padding: 0 4rem 0 0;
 }
 
 .pl-4 {
-  padding: 0 0 0 4em;
+  padding: 0 0 0 4rem;
 }
 
 .m-4 {
-  margin: 4em;
+  margin: 4rem;
 }
 
 .my-4 {
-  margin: 4em 0;
+  margin: 4rem 0;
 }
 
 .mx-4 {
-  margin: 0 4em;
+  margin: 0 4rem;
 }
 
 .mr-4 {
-  margin: 0 4em 0 0;
+  margin: 0 4rem 0 0;
 }
 
 .ml-4 {
-  margin: 0 0 0 4em;
+  margin: 0 0 0 4rem;
 }
 
 .p-5 {
-  padding: 5em;
+  padding: 5rem;
 }
 
 .py-5 {
-  padding: 5em 0;
+  padding: 5rem 0;
 }
 
 .px-5 {
-  padding: 0 5em;
+  padding: 0 5rem;
 }
 
 .pr-5 {
-  padding: 0 5em 0 0;
+  padding: 0 5rem 0 0;
 }
 
 .pl-5 {
-  padding: 0 0 0 5em;
+  padding: 0 0 0 5rem;
 }
 
 .m-5 {
-  margin: 5em;
+  margin: 5rem;
 }
 
 .my-5 {
-  margin: 5em 0;
+  margin: 5rem 0;
 }
 
 .mx-5 {
-  margin: 0 5em;
+  margin: 0 5rem;
 }
 
 .mr-5 {
-  margin: 0 5em 0 0;
+  margin: 0 5rem 0 0;
 }
 
 .ml-5 {
-  margin: 0 0 0 5em;
+  margin: 0 0 0 5rem;
 }/*# sourceMappingURL=webnote.css.map */

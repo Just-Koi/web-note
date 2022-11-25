@@ -4,7 +4,7 @@ $regural: 'Roboto', sans-serif;
 
 $fws: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 
-$spaces: (1em, 2em, 3em, 4em, 5em);
+$spaces: (1rem, 2rem, 3rem, 4rem, 5rem);
 
 $skyBlue: #56CBF9;
 $QueenPink: #EAC5D8;
@@ -67,12 +67,12 @@ html{
 
 .table,
 table{
+    border: 2px solid #ddd;
     padding: 5px 10px;
     border-radius: 8px;
 
     .table-heading,
     thead{
-        border: 2px solid #ddd;
         font-size: 1.5em;
         font-weight: 800;
     }
@@ -84,7 +84,6 @@ table{
 
         .table-cell,
         td{
-            border: 2px solid #ddd;
             padding: 5px;
 
             &.cell-heading{
@@ -105,7 +104,7 @@ ul{
     padding: 0;
 }
 
-.decimal-list{
+.list-decimal{
     list-style: decimal;
 }
 
