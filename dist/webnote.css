@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.highlight-blue {
+  color: #56CBF9;
+}
+
+.highlight-pink {
+  color: #EAC5D8;
+}
+
+.highlight-yellow {
+  color: #FFD8BE;
+}
+
+.highlight-purple {
+  color: #9381FF;
+}
+
+.highlight-beige {
+  color: #F8F7FF;
+}
+
 .dark-note {
   background: #222;
   color: #efefef;
@@ -52,6 +72,56 @@
 html {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+}
+
+.table,
+table {
+  padding: 5px 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+.table .table-heading,
+.table thead,
+table .table-heading,
+table thead {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.table .table-row,
+.table tr,
+table .table-row,
+table tr {
+  margin: 5px 0px;
+}
+.table .table-row .table-cell,
+.table .table-row td,
+.table tr .table-cell,
+.table tr td,
+table .table-row .table-cell,
+table .table-row td,
+table tr .table-cell,
+table tr td {
+  padding: 5px;
+}
+.table .table-row .table-cell.cell-heading,
+.table .table-row td.cell-heading,
+.table tr .table-cell.cell-heading,
+.table tr td.cell-heading,
+table .table-row .table-cell.cell-heading,
+table .table-row td.cell-heading,
+table tr .table-cell.cell-heading,
+table tr td.cell-heading {
+  font-weight: 800;
+}
+.table .table-row .table-cell.cell-item,
+.table .table-row td.cell-item,
+.table tr .table-cell.cell-item,
+.table tr td.cell-item,
+table .table-row .table-cell.cell-item,
+table .table-row td.cell-item,
+table tr .table-cell.cell-item,
+table tr td.cell-item {
+  font-weight: 400;
 }
 
 ul {
