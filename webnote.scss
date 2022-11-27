@@ -27,6 +27,16 @@ $highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
     top: -.5rem;
 }
 
+.lower-number{
+    font-size: .5em;
+    position: relative;
+    top: .25rem;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
 @for $i from 1 through 5{
     $color: $i;
     

@@ -10,6 +10,16 @@
   top: -0.5rem;
 }
 
+.lower-number {
+  font-size: 0.5em;
+  position: relative;
+  top: 0.25rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
 .highlight-blue {
   color: #56CBF9;
 }
