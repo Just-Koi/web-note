@@ -13,6 +13,10 @@ $apricot: #FFD8BE;
 $medPurple: #9381FF;
 $highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
+.italic-text{
+    font-style: italic;
+}
+
 @for $i from 1 through 5{
     $color: $i;
     
@@ -117,7 +121,7 @@ ul{
 }
 
 .list-arrow{
-    list-style-type: "→";
+    list-style-type: "→ ";
 }
 
 @for $i from 1 through 5{

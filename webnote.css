@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.italic-text {
+  font-style: italic;
+}
+
 .highlight-blue {
   color: #56CBF9;
 }
@@ -143,7 +147,7 @@ ul {
 }
 
 .list-arrow {
-  list-style-type: "→";
+  list-style-type: "→ ";
 }
 
 .p-1 {
