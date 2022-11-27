@@ -108,6 +108,10 @@ ul{
     list-style: decimal;
 }
 
+.list-square{
+    list-style: square;
+}
+
 @for $i from 1 through 5{
     .p-#{$i}{
         padding: nth($spaces, $i);

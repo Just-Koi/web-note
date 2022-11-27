@@ -133,6 +133,10 @@ ul {
   list-style: decimal;
 }
 
+.list-square {
+  list-style: square;
+}
+
 .p-1 {
   padding: 1rem;
 }
