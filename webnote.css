@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 .highlight-blue {
   color: #56CBF9;
@@ -138,7 +139,11 @@ ul {
 }
 
 .list-dash {
-  list-style: disc;
+  list-style-type: "- ";
+}
+
+.list-arrow {
+  list-style-type: "→";
 }
 
 .p-1 {
