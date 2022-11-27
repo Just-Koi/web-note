@@ -1,3 +1,5 @@
+//https://cdn.jsdelivr.net/gh/Just-Koi/web-note@latest/dist/webnote.css
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 $regural: 'Roboto', sans-serif;
@@ -13,8 +15,14 @@ $apricot: #FFD8BE;
 $medPurple: #9381FF;
 $highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
-.italic-text{
+.text-italic{
     font-style: italic;
+}
+
+.sqaure{
+    font-size: .5em;
+    position: relative;
+    top: -.5rem;
 }
 
 @for $i from 1 through 5{
