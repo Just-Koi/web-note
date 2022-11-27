@@ -21,7 +21,7 @@
 
 .dark-note {
   background: #222;
-  color: #efefef;
+  color: #F8F7FF;
 }
 
 .light-note {
@@ -135,6 +135,10 @@ ul {
 
 .list-square {
   list-style: square;
+}
+
+.list-dash {
+  list-style: disc;
 }
 
 .p-1 {

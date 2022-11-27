@@ -42,7 +42,7 @@ $highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
 .dark-note{
     background: #222;
-    color: #efefef;
+    color: $ghostWhite;
 }
 
 .light-note{
@@ -110,6 +110,10 @@ ul{
 
 .list-square{
     list-style: square;
+}
+
+.list-dash{
+    list-style: disc;
 }
 
 @for $i from 1 through 5{
