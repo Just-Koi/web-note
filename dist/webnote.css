@@ -80,6 +80,7 @@ table {
   padding: 5px 10px;
   border-radius: 8px;
 }
+
 .table .table-heading,
 .table thead,
 table .table-heading,
@@ -87,6 +88,7 @@ table thead {
   font-size: 1.5em;
   font-weight: 800;
 }
+
 .table .table-row,
 .table tr,
 table .table-row,
@@ -94,6 +96,7 @@ table tr {
   border: 2px solid #ddd;
   margin: 5px 0px;
 }
+
 .table .table-row .table-cell,
 .table .table-row td,
 .table tr .table-cell,
@@ -104,6 +107,7 @@ table tr .table-cell,
 table tr td {
   padding: 5px;
 }
+
 .table .table-row .table-cell.cell-heading,
 .table .table-row td.cell-heading,
 .table tr .table-cell.cell-heading,
@@ -114,6 +118,7 @@ table tr .table-cell.cell-heading,
 table tr td.cell-heading {
   font-weight: 800;
 }
+
 .table .table-row .table-cell.cell-item,
 .table .table-row td.cell-item,
 .table tr .table-cell.cell-item,
@@ -339,4 +344,4 @@ ul {
 
 .ml-5 {
   margin: 0 0 0 5rem;
-}
+}/*# sourceMappingURL=webnote.css.map */

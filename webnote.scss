@@ -113,7 +113,11 @@ ul{
 }
 
 .list-dash{
-    list-style: disc;
+    list-style-type: "- ";
+}
+
+.list-arrow{
+    list-style-type: "→";
 }
 
 @for $i from 1 through 5{
