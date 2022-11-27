@@ -6,7 +6,9 @@ $regural: 'Roboto', sans-serif;
 
 $fws: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 
-$spaces: (1rem, 2rem, 3rem, 4rem, 5rem);
+$spaces-sm: (2px, 4px, 8px, 10px, 15px);
+$spaces: (1em, 2em, 3em, 4em, 5em);
+$spaces-xl: (1rem, 2rem, 3rem, 4rem, 5rem);
 
 $skyBlue: #56CBF9;
 $QueenPink: #EAC5D8;
@@ -132,7 +134,73 @@ ul{
     list-style-type: "→ ";
 }
 
+.sm-px-0,
+.px-0,
+.xl-px-0{
+    padding: 0 auto;
+}
+
+.sm-mx-0,
+.mx-0,
+.xl-mx-0{
+    margin: 0 auto;
+}
+
+.sm-pl-0,
+.pl-0,
+.xl-pl-0{
+    padding: 0 auto 0 0;
+}
+
+.sm-ml-0,
+.ml-0,
+.xl-ml-0{
+    margin: 0 auto 0 0;
+}
+
+.sm-pr-0,
+.pr-0,
+.xl-pr-0{
+    padding: 0 0 0 auto;
+}
+
+.sm-mr-0,
+.mr-0,
+.xl-mr-0{
+    margin: 0 0 0 auto;
+}
+
 @for $i from 1 through 5{
+    .sm-p-#{$i}{
+        padding: nth($spaces-sm, $i);
+    }
+    .sm-py-#{$i}{
+        padding: nth($spaces-sm, $i) 0;
+    }
+    .sm-px-#{$i}{
+        padding: 0 nth($spaces-sm, $i);
+    }
+    .sm-pr-#{$i}{
+        padding: 0 nth($spaces-sm, $i) 0 0;
+    }
+    .sm-pl-#{$i}{
+        padding: 0 0 0 nth($spaces-sm, $i);
+    }
+    .sm-m-#{$i}{
+        margin: nth($spaces-sm, $i);
+    }
+    .sm-my-#{$i}{
+        margin: nth($spaces-sm, $i) 0;
+    }
+    .sm-mx-#{$i}{
+        margin: 0 nth($spaces-sm, $i);
+    }
+    .sm-mr-#{$i}{
+        margin: 0 nth($spaces-sm, $i) 0 0;
+    }
+    .sm-ml-#{$i}{
+        margin: 0 0 0 nth($spaces-sm, $i);
+    }
     .p-#{$i}{
         padding: nth($spaces, $i);
     }
@@ -163,4 +231,35 @@ ul{
     .ml-#{$i}{
         margin: 0 0 0 nth($spaces, $i);
     }
+    .xl-p-#{$i}{
+        padding: nth($spaces-xl, $i);
+    }
+    .xl-py-#{$i}{
+        padding: nth($spaces-xl, $i) 0;
+    }
+    .xl-px-#{$i}{
+        padding: 0 nth($spaces-xl, $i);
+    }
+    .xl-pr-#{$i}{
+        padding: 0 nth($spaces-xl, $i) 0 0;
+    }
+    .xl-pl-#{$i}{
+        padding: 0 0 0 nth($spaces-xl, $i);
+    }
+    .xl-m-#{$i}{
+        margin: nth($spaces-xl, $i);
+    }
+    .xl-my-#{$i}{
+        margin: nth($spaces-xl, $i) 0;
+    }
+    .xl-mx-#{$i}{
+        margin: 0 nth($spaces-xl, $i);
+    }
+    .xl-mr-#{$i}{
+        margin: 0 nth($spaces-xl, $i) 0 0;
+    }
+    .xl-ml-#{$i}{
+        margin: 0 0 0 nth($spaces-xl, $i);
+    }
 }
+
