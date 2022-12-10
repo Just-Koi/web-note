@@ -17,6 +17,10 @@ $apricot: #FFD8BE;
 $medPurple: #9381FF;
 $colors: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
+img{
+    border-radius: 8px;
+}
+
 .text-italic{
     font-style: italic;
 }
@@ -33,9 +37,14 @@ $colors: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
     top: .25rem;
 }
 
+.img-fullwidth{
+    width: 100vw;
+}
+
 .img-fluid{
     width: 100%;
 }
+
 
 @for $i from 1 through 5{
     $color: $i;
