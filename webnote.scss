@@ -15,7 +15,7 @@ $QueenPink: #EAC5D8;
 $ghostWhite: #F8F7FF;
 $apricot: #FFD8BE;
 $medPurple: #9381FF;
-$highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
+$colors: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
 .text-italic{
     font-style: italic;
@@ -41,24 +41,24 @@ $highlights: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
     $color: $i;
     
     @if ($color == 1) {
-        .highlight-blue{
-            color: nth($highlights, 1);
+        .color-blue{
+            color: nth($colors, 1);
         }
     } @else if ($color == 2) {
-        .highlight-pink{
-            color: nth($highlights, 2);
+        .color-pink{
+            color: nth($colors, 2);
         }
     } @else if ($color == 3) {
-        .highlight-yellow{
-            color: nth($highlights, 3);
+        .color-yellow{
+            color: nth($colors, 3);
         }
     } @else if ($color == 4) {
-        .highlight-purple{
-            color: nth($highlights, 4);
+        .color-purple{
+            color: nth($colors, 4);
         }
     } @else if($color == 5) {
-        .highlight-beige{
-            color: nth($highlights, 5);
+        .color-beige{
+            color: nth($colors, 5);
         }
     }
 }
