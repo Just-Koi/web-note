@@ -17,6 +17,10 @@ $apricot: #FFD8BE;
 $medPurple: #9381FF;
 $colors: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
+a{
+    text-decoration: none;
+}
+
 img{
     border-radius: 8px;
 }
