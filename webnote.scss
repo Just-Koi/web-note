@@ -105,13 +105,13 @@ html{
 .table,
 table{
     border: 2px solid #ddd;
-    padding: 5px 10px;
+    padding: 1rem;
     border-radius: 8px;
 
     .table-heading,
     thead{
-        font-size: 1.5em;
-        font-weight: 800;
+        font-size: 1.2em;
+        font-weight: 700;
     }
 
     .table-row,
@@ -121,7 +121,7 @@ table{
 
         .table-cell,
         td{
-            padding: 5px;
+            padding: 5px 1rem;
 
             &.cell-heading{
                 font-weight: 800;
@@ -150,11 +150,12 @@ ul{
 }
 
 .list-dash{
-    list-style-type: "- ";
+    list-style-type: " -";
 }
 
 .list-arrow{
-    list-style-type: "→ ";
+    padding: 1rem;
+    list-style-type: " →";
 }
 
 .sm-px-0,
