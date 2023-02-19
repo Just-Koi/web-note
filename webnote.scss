@@ -19,6 +19,8 @@ $colors: ($skyBlue, $QueenPink, $apricot, $medPurple, $ghostWhite);
 
 a{
     text-decoration: none;
+    color: nth($colors, 1);
+    font-style: italic;
 }
 
 img{
