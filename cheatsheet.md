@@ -1,25 +1,35 @@
------------------ TEXT ----------------
+## TEXT
 
-.text-regural - sets font to Roboto
-.fw-(bold) - sets font weight to yours preferred, ex. ".fw-400" (fw is for font weight)
+`.text-regural` sets the font to Roboto
 
------------------ COLORS ----------------
+`.fw-(bold)` sets the font's weight to the one you prefer, ex. `.fw-400` (fw is for font weight)
 
-.dark-note - sets background color to #222 and text color to #ef
-.light-note - sets background color to #ef and text color to #222
+## COLORS
 
----------------- SPACES ---------------
-Numbers for spaces are from 1 to 5.
+`.dark-note` sets the background color to `#222` and the text color to `#ef`
 
-.p-(number) - sets the padding of element to to the same value as number -> ".p-5"
-.px-(number) - sets the x-axis padding of element to the same value as number -> ".px-5"
-.py-(number) - sets the y-axis padding of element to the same value as number -> ".py-5"
+`.light-note` sets the background color to `#ef` and the text color to `#222`
 
-.m-(number) - sets the margin of element to the same value as number -> ".m-5"
-.mx-(number) - sets the x-axis margin of element to the same value as number -> ".mx-5"
-.my-(number) - sets the y-axis margin of element to the same value as number -> ".my-5"
+## SPACES
 
----------------- LISTS -----------------
-ul element has no padding by default but it has an list-style
+### Numbers for spaces are from 1 to 5.
 
-.decimal-list - changes list style to decimal list
+`.p-(number)` sets the padding of element to to the same value as number &rarr; `.p-5`
+
+`.px-(number)` sets the x-axis padding of element to the same value as number &rarr; `.px-5`
+
+`.py-(number)` sets the y-axis padding of element to the same value as number &rarr; `.py-5`
+
+<br>
+
+`.m-(number)` sets the margin of element to the same value as number &rarr; `.m-5`
+
+`.mx-(number)` sets the x-axis margin of element to the same value as number &rarr; `.mx-5`
+
+`.my-(number)` sets the y-axis margin of element to the same value as number &rarr; `.my-5`
+
+## LISTS
+
+### ul element has no padding by default but it has an list-style
+
+`.decimal-list` changes the list's style to an ordered (decimal) one
